@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>412</width>
+    <height>473</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>CrossCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>531</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Diet Generator</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>380</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #C0C0C0;  /* Default color, replace with your desired color */
+}
+
+/* Set the background color for the checked state */
+QPushButton:checked {
+    background-color: #FFD700;  /* Color when checked, replace with your desired color */
+}</string>
+    </property>
+    <property name="text">
+     <string>User Profile</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>380</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #C0C0C0;  /* Default color, replace with your desired color */
+}
+
+/* Set the background color for the checked state */
+QPushButton:checked {
+    background-color: #FFD700;  /* Color when checked, replace with your desired color */
+}</string>
+    </property>
+    <property name="text">
+     <string>Shopping List</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>380</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #C0C0C0;  /* Default color, replace with your desired color */
+}
+
+/* Set the background color for the checked state */
+QPushButton:checked {
+    background-color: #FFD700;  /* Color when checked, replace with your desired color */
+}</string>
+    </property>
+    <property name="text">
+     <string>Meal Tracker</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>380</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #C0C0C0;  /* Default color, replace with your desired color */
+}
+
+/* Set the background color for the checked state */
+QPushButton:checked {
+    background-color: #FFD700;  /* Color when checked, replace with your desired color */
+}</string>
+    </property>
+    <property name="text">
+     <string>Progress</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>412</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHome">
+    <property name="title">
+     <string>Home</string>
+    </property>
+    <addaction name="actionRow_1"/>
+   </widget>
+   <addaction name="menuHome"/>
+  </widget>
+  <action name="actionRow_1">
+   <property name="text">
+    <string>Row 1</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
