@@ -1,7 +1,4 @@
-﻿  Recipes.cpp
-  ShoppingList.cpp
-  User.cpp
-  Generating Code...
+﻿  main.cpp
   DietGenerator.vcxproj -> C:\Users\roche\source\repos\DietGenerator\x64\Debug\DietGenerator.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

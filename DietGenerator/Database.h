@@ -20,6 +20,9 @@ public:
 	bool readRecords(const std::string& tablename, const std::string& condition,const std::string& result);
 	bool updateRecords(const std::string& tablename, const std::string& setClause, const std::string& condition);
 	bool deleteRecords(const std::string& tablename, const std::string& condition);
+	bool createTable(const std::string& _tablename, const std::string& columns);
+	//initial imports
+	bool importRecipes(const std::string& csvFilePath);
 
 };
 #endif
