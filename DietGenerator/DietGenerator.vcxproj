@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup Label="ProjectConfigurations">
+  <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
       <Platform>Win32</Platform>
@@ -18,16 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-	<PropertyGroup Label="QtSettings">
-		<QtVersion>6.6.2</QtVersion>
-		<QtInstallDir>C:\Qt</QtInstallDir>
-		<QtBinDir>$(QtInstallDir)\bin</QtBinDir>
-		<QtMoc>$(QtBinDir)\moc.exe</QtMoc>
-		<QtUic>$(QtBinDir)\uic.exe</QtUic>
-		<QtRcc>$(QtBinDir)\rcc.exe</QtRcc>
-		<QtIncludeDir>$(QtInstallDir)\include</QtIncludeDir>
-		<QtLibDir>$(QtInstallDir)\lib</QtLibDir>
-	</PropertyGroup>
+  <PropertyGroup Label="QtSettings">
+    <QtVersion>6.6.2</QtVersion>
+    <QtInstallDir>C:\Qt</QtInstallDir>
+    <QtBinDir>$(QtInstallDir)\bin</QtBinDir>
+    <QtMoc>$(QtBinDir)\moc.exe</QtMoc>
+    <QtUic>$(QtBinDir)\uic.exe</QtUic>
+    <QtRcc>$(QtBinDir)\rcc.exe</QtRcc>
+    <QtIncludeDir>$(QtInstallDir)\include</QtIncludeDir>
+    <QtLibDir>$(QtInstallDir)\lib</QtLibDir>
+  </PropertyGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -137,6 +137,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\sqlite-amalgamation\sqlite-amalgamation-3450100\sqlite3.c" />
+    <ClCompile Include="Database.cpp" />
     <ClCompile Include="Ingredients.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MealPlan.cpp" />
@@ -146,13 +148,24 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Allergen.h" />
+    <ClInclude Include="Database.h" />
     <ClInclude Include="Ingredients.h" />
     <ClInclude Include="MealPlan.h" />
     <ClInclude Include="Recipes.h" />
     <ClInclude Include="ShoppingList.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\sqlite3_c_plus_plus.1.0.3\build\native\sqlite3_c_plus_plus.targets" Condition="Exists('..\packages\sqlite3_c_plus_plus.1.0.3\build\native\sqlite3_c_plus_plus.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\sqlite3_c_plus_plus.1.0.3\build\native\sqlite3_c_plus_plus.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sqlite3_c_plus_plus.1.0.3\build\native\sqlite3_c_plus_plus.targets'))" />
+  </Target>
 </Project>

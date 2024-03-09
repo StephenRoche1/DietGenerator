@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\roche\\source\\repos\\DietGenerator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1834602-D938-42A0-A190-7E75AAF22A3A}|DietGenerator\\DietGenerator.vcxproj|C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Ingredients.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F1834602-D938-42A0-A190-7E75AAF22A3A}|DietGenerator\\DietGenerator.vcxproj|solutionrelative:DietGenerator\\Ingredients.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F1834602-D938-42A0-A190-7E75AAF22A3A}|DietGenerator\\DietGenerator.vcxproj|C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Database.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F1834602-D938-42A0-A190-7E75AAF22A3A}|DietGenerator\\DietGenerator.vcxproj|solutionrelative:DietGenerator\\Database.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1834602-D938-42A0-A190-7E75AAF22A3A}|DietGenerator\\DietGenerator.vcxproj|C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Recipes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F1834602-D938-42A0-A190-7E75AAF22A3A}|DietGenerator\\DietGenerator.vcxproj|solutionrelative:DietGenerator\\Recipes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F1834602-D938-42A0-A190-7E75AAF22A3A}|DietGenerator\\DietGenerator.vcxproj|C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Database.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F1834602-D938-42A0-A190-7E75AAF22A3A}|DietGenerator\\DietGenerator.vcxproj|solutionrelative:DietGenerator\\Database.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Ingredients.cpp",
-              "DocumentMoniker": "C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Ingredients.cpp",
-              "RelativeDocumentMoniker": "DietGenerator\\Ingredients.cpp",
-              "ToolTip": "C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Ingredients.cpp",
-              "RelativeToolTip": "DietGenerator\\Ingredients.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA+AAAA",
+              "Title": "Database.cpp",
+              "DocumentMoniker": "C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Database.cpp",
+              "RelativeDocumentMoniker": "DietGenerator\\Database.cpp",
+              "ToolTip": "C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Database.cpp",
+              "RelativeToolTip": "DietGenerator\\Database.cpp",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwCsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-08T21:13:00.098Z",
+              "WhenOpened": "2024-03-09T13:01:00.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Recipes.cpp",
-              "DocumentMoniker": "C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Recipes.cpp",
-              "RelativeDocumentMoniker": "DietGenerator\\Recipes.cpp",
-              "ToolTip": "C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Recipes.cpp",
-              "RelativeToolTip": "DietGenerator\\Recipes.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-08T15:26:52.729Z",
+              "Title": "Database.h",
+              "DocumentMoniker": "C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Database.h",
+              "RelativeDocumentMoniker": "DietGenerator\\Database.h",
+              "ToolTip": "C:\\Users\\roche\\source\\repos\\DietGenerator\\DietGenerator\\Database.h",
+              "RelativeToolTip": "DietGenerator\\Database.h",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-09T11:57:57.874Z",
               "EditorCaption": ""
             }
           ]
